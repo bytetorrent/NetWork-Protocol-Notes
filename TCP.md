@@ -37,6 +37,6 @@ NextByteExpected 和 LastByteRead 的差其实是还没被应用层读取的部�
 
 AdvertisedWindow 其实是 MaxRcvBuffer 减去 A。
 
-也就是：AdvertisedWindow=MaxRcvBuffer-((NextByteExpected-1)-LastByteRead)。
+也就是：AdvertisedWindow=MaxRcvBuffer-((NextByteExpected-LastByteRead)。
 
 那第二部分和第三部分的分界线在哪里呢？NextByteExpected 加 AdvertisedWindow 就是第二部分和第三部分的分界线，其实也就是 LastByteRead 加上 MaxRcvBuffer。
