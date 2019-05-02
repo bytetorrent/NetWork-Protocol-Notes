@@ -1,4 +1,5 @@
 ![alt text](https://github.com/bytetorrent/NetWork-Protocol-Notes/blob/master/tcp%204%20way%20close.PNG)
+
 TimeWait(2MSL):
 如果 B 没有跑路，发送了“B 也不玩了”的请求到达 A 时，A 发送“知道 B 也不玩了”的 ACK 后，从 FIN_WAIT_2 状态结束，按说 A 可以跑路了，
 但是最后的这个 ACK 万一 B 收不到呢？则 B 会重新发一个“B 不玩了”，这个时候 A 已经跑路了的话，B 就再也收不到 ACK 了，
