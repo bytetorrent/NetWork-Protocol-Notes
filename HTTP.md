@@ -18,6 +18,7 @@ HTTP 2.0 还将所有的传输信息分割为更小的消息和帧，并对它�
 ![alt text](https://static001.geekbang.org/resource/image/03/dd/03d4a216c024a9e761ed43c6787bf7dd.jpg)
 
 QUIC 协议:
+
 HTTP 2.0 虽然大大增加了并发性，但还是有问题的。因为 HTTP 2.0 也是基于 TCP 协议的，TCP 协议在处理包时是有严格顺序的。
 
 当其中一个数据包遇到问题，TCP 连接需要等待这个包完成重传之后才能继续进行。虽然 HTTP 2.0 通过多个 stream，使得逻辑上一个 TCP 连接上的并行内容，
