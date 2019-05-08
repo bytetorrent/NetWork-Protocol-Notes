@@ -1,3 +1,4 @@
+
 ![alt text](https://static001.geekbang.org/resource/image/70/02/7042f5c3d9e3437d5b0b30b30f43c802.jpg)
 
 当你登录一个外卖网站的时候，由于是 HTTPS，客户端会发送 Client Hello 消息到服务器，以明文传输 TLS 版本信息、加密套件候选列表、压缩算法候选列表等信息。
