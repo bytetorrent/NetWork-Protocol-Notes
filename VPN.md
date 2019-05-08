@@ -27,6 +27,7 @@ PE（Provider Edge）：运营商网络与客户网络相连的边缘网络设�
 CE（Customer Edge）：客户网络与 PE 相连接的边缘设备；
 
 P（Provider）：这里特指运营商网络中除 PE 之外的其他运营商网络设备。
+
 ![alt text](https://static001.geekbang.org/resource/image/ba/ec/bae67c4e3f4a4127bad07de4bb577bec.jpg)
 
 为什么要这样分呢？因为我们发现，在运营商网络里面，也即 P Router 之间，使用标签是没有问题的，因为都在运营商的管控之下，对于网段，路由都可以自己控制。但是一旦客户要接入这个网络，就复杂得多。
