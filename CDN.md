@@ -1,3 +1,4 @@
+
 ![alt text](https://static001.geekbang.org/resource/image/a9/02/a94d543020d85c8feb9cd665eb4a3502.jpg)
 
 在没有 CDN 的情况下，用户向浏览器输入 www.web.com 这个域名，客户端访问本地 DNS 服务器的时候，如果本地 DNS 服务器有缓存，则返回网站的地址；
